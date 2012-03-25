@@ -52,18 +52,16 @@ table {
 
 body {
 	margin: 0px auto;
-	background-color: #2c6368;
+	background-color: #333;
 }
 
 div#container {
-	background-color: #308694;
-	width: 960px;
 	margin: 0px auto;
 }
 
 div#header {
-	background-color: #333;
-	width: 900px;
+	background-color: #000;
+	display: block;
 	height: 100px;
 	margin: 0px;
 	padding: 30px;
@@ -71,7 +69,7 @@ div#header {
 
 div#header h1 {
 	margin-top: 20px;
-	margin-left: 20px;
+	margin-left: 150px;
 }
 
 div#header a {
@@ -80,7 +78,7 @@ div#header a {
 	margin: 0px;
 	text-decoration: none;
 	font-family: "Helvetica Neue", Arial;
-	font-size: 35px;
+	font-size: 40px;
 	font-weight: bold;
 	color: #E4E2E2;
 }
@@ -94,19 +92,20 @@ div#header p {
 	font-size: 15px;
 	color: #E4E2E2;
 	margin-top: 10px;
-	margin-left: 20px;
+	margin-left: 150px;
 }
 
 div#welcome_blurb {
 	display: block;
-	width: 450px;
-	margin-top: 25px;
+	width: 525px;
+	margin-top: 50px;
 	margin bottom: 25px;
-	padding: 40px 60px;
+	margin-left: 180px;
+	padding-top: 10px;
 	font-family: "Arial";
 	line-height: 130%;
 	color: #E4E2E2;
-	font-size:22px;
+	font-size:18px;
 	display: block;
 }
 
@@ -114,16 +113,21 @@ div#welcome_blurb p {
 	margin-bottom: 5px;
 }
 
+div#welcome_blurb p#bienvenida {
+	font-size: 30px;
+	line-height: 70px;
+}
+
 div#faqs {
-	margin-top: 50px;
 	margin-bottom: 50px;
 	float: right;
+	padding: 0px;
 }
 
 div#faqs ul li {
 	width: 350px;
 	height: 75px;
-	margin-right: 60px;
+	margin-right: 180px;
 }
 
 div#footer {
@@ -133,32 +137,39 @@ div#footer {
 div#faqs ul li a {
 	line-height: 75px;
 	text-decoration: none;
-	border: 2px solid #CA5438;
+	border: 2px solid #389DAD;
 	border-radius: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	text-align: center;
 	font-family: "Helvetica Neue", Arial;
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: bold;
 	color: #E4E2E2;
-	background-color: #CA5438;
+	background-color: #389DAD;
 	display: block;
+	padding: 0px;
+}
+
+div#faqs ul li a:hover {
+	background-color: #23636D;
+	border: 2px solid #23636D;
+	border-radius: 10px;	
 }
 
 div#menu ul {
 	list-style-type: none;
 	margin-top: 40px;
-	margin-left: 20px;
+	margin-left: 180px;
 	padding: 0px;
 	font-family: "Helvetica Neue", Arial;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 20px;
 	float: left;
 }
 
 div#menu ul li {
-	background-color: #CA5438;
+	background-color: #389DAD;
 	width: 250px;
 	border-radius: 5px;
 	margin-top: 10px;
@@ -171,37 +182,38 @@ div#menu ul li a {
 	color: #E4E2E2;
 	text-decoration: none;
 	display: block;
-	padding: 10px 10px 10px 20px;
+	padding: 10px 10px 10px 40px;
 }
 
 div#menu ul li a:hover {
-	border-left: 10px solid #CA5438;
+	background-color: #23636D;
+	border-radius: 5px;	
 }
 
 div#menu ul li a.active {
-	border-left: 10px solid #c44040;
-	background-color: #c44040;
+	border-left: 10px solid #23636D;
+	background-color: #23636D;
 	border-radius: 5px;
 }
 
 div#main_content {
 	display: block;
-	width: 520px;
+	width: 600px;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	margin-right: 20px;
+	margin-right: 180px;
 	border: 1px solid #F2F0F0;
 	border-radius: 5px;
 	background-color: #F2F0F0;
 	padding: 40px 60px;
-	font-family: "Arial";
-	font-size:13pt;
+	font-size: 15px;
+	font-family: Arial;
 	float: right;
 }
 
 div#main_content h3 {
 	font-family: "Verdana";
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: bold;
 	line-height: 23px;
 	margin-top: 25px;
@@ -210,9 +222,8 @@ div#main_content h3 {
 
 div#main_content p {
 	font-family: Arial;
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 23px;
-	text-indent: 1em;
 	margin-bottom: 10px;
 }
 
@@ -220,27 +231,25 @@ div#main_content p {
 div#main_content ol li {
 	list-style: disc;
 	font-family: Arial;
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 23px;
 	margin-bottom: 10px;
 }
 
 div#main_content ul li {
 	font-family: Arial;
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 23px;
-	text-indent: 2em;
 	margin-bottom: 10px;
 }
 
 div#main_content a {
-	color: #000;
+	color: #389DAD;
 	border-bottom: 1px dotted #245C81;
 	text-decoration: none;
 }
 
 div#main_content a:hover {
-	color: #2A2A2A;
 	border-bottom: 1px dotted #2A2A2A;
 	text-decoration: none;
 }
@@ -251,7 +260,7 @@ div#enlaces_piso table {
 
 div#enlaces_piso tr td {
 	padding: 5px 5px 5px 5px;
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 23px;
 }
 
@@ -262,13 +271,13 @@ div#unidades_medida table {
 
 div#unidades_medida tr th {
 	padding: 5px 5px 5px 5px;
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 23px;
 }
 
 div#unidades_medida tr td {
 	padding: 5px 5px 5px 5px;
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 23px;
 	text-align: center;
 	border-top: 1px dotted #333;
@@ -280,7 +289,7 @@ strong {
 
 div#footer {
 	height: 100px;
-	background-color: #4D4D4D;
+	background-color: #000;
 	font-family: "Helvetica Neue", "Arial";
 	font-size: 14px;
 	color: #E4E2E2;
@@ -296,14 +305,14 @@ div#footer a {
 
 div#about a {
 	float: left;
-	margin-left: 20px;
+	margin-left: 180px;
 	margin-top: 15px;
 	text-decoration: none;
 }
 
 div#copyright p {
 	float: right;
-	margin-right: 20px;
+	margin-right: 180px;
 	margin-top: 15px;
 	text-align: right;
 }
