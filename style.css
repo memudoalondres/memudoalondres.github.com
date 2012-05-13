@@ -240,13 +240,11 @@ div#main_content ul li {
 
 div#main_content a {
 	color: #515657;
-	border-bottom: 1px dotted #515657;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 div#main_content a:hover {
-	border-bottom: 1px dotted #2A2A2A;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 div#enlaces_piso table {
@@ -291,16 +289,14 @@ div#footer {
 }
 
 div#footer a {
-	border-bottom: 1px dotted #515657;
+	text-decoration: underline;
 	color: #515657;
-	text-decoration: none;
 	padding-bottom: 2px;
 	line-height: 15px;
 }
 
 div#about a {
 	float: left;
-	text-decoration: none;
 	margin-top: 30px;
 }
 
