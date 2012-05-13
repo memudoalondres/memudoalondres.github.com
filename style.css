@@ -52,24 +52,25 @@ table {
 
 body {
 	margin: 0px auto;
-	background-color: #333;
+	background-image: url(images/lghtmesh.png);
+	background-attachment: fixed;
+	background-repeat: repeat;
 }
 
 div#container {
 	margin: 0px auto;
+	width: 960px;
 }
 
 div#header {
-	background-color: #000;
 	display: block;
 	height: 100px;
-	margin: 0px;
-	padding: 30px;
+	margin-top: 80px;
+	border-bottom: dashed 1px #B8B8B8;
 }
 
 div#header h1 {
 	margin-top: 20px;
-	margin-left: 150px;
 }
 
 div#header a {
@@ -77,34 +78,33 @@ div#header a {
 	padding: 0px;
 	margin: 0px;
 	text-decoration: none;
-	font-family: "Helvetica Neue", Arial;
-	font-size: 40px;
+	font-family: 'Megrim';
+	font-size: 50px;
 	font-weight: bold;
-	color: #E4E2E2;
+	color: #515657;
+	text-shadow:0 1px 0 #FFFFFF;
 }
 
 div#header p {
 	display: block;
 	padding: 0px;
-	margin: 0px;
-	text-decoration: none;
-	font-family: Verdana, Arial;
-	font-size: 15px;
-	color: #E4E2E2;
 	margin-top: 10px;
-	margin-left: 150px;
+	text-decoration: none;
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 15px;
+	color: #515657;
+	text-shadow:0 1px 0 #FFFFFF;
 }
 
 div#welcome_blurb {
 	display: block;
 	width: 525px;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin bottom: 25px;
-	margin-left: 180px;
 	padding-top: 10px;
 	font-family: "Arial";
 	line-height: 130%;
-	color: #E4E2E2;
+	color: #515657;
 	font-size:18px;
 	display: block;
 }
@@ -114,11 +114,12 @@ div#welcome_blurb p {
 }
 
 div#welcome_blurb p#bienvenida {
-	font-size: 30px;
-	line-height: 70px;
+	font-size: 20px;
+	line-height: 50px;
 }
 
 div#faqs {
+	margin-top: 50px;
 	margin-bottom: 50px;
 	float: right;
 	padding: 0px;
@@ -127,7 +128,6 @@ div#faqs {
 div#faqs ul li {
 	width: 350px;
 	height: 75px;
-	margin-right: 180px;
 }
 
 div#footer {
@@ -137,40 +137,39 @@ div#footer {
 div#faqs ul li a {
 	line-height: 75px;
 	text-decoration: none;
-	border: 2px solid #389DAD;
+	border: 2px solid #8DBBC3;
 	border-radius: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	text-align: center;
 	font-family: "Helvetica Neue", Arial;
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: normal;
 	color: #E4E2E2;
-	background-color: #389DAD;
+	background-color: #8DBBC3;
 	display: block;
 	padding: 0px;
 }
 
 div#faqs ul li a:hover {
-	background-color: #23636D;
-	border: 2px solid #23636D;
+	background-color: #9CCED6;
+	border: 2px solid #9CCED6;
 	border-radius: 10px;	
 }
 
 div#menu ul {
 	list-style-type: none;
 	margin-top: 40px;
-	margin-left: 180px;
 	padding: 0px;
 	font-family: "Helvetica Neue", Arial;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 20px;
 	float: left;
 }
 
 div#menu ul li {
-	background-color: #389DAD;
-	width: 250px;
+	background-color: #8DBBC3;
+	width: 200px;
 	border-radius: 5px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -182,39 +181,35 @@ div#menu ul li a {
 	color: #E4E2E2;
 	text-decoration: none;
 	display: block;
-	padding: 10px 10px 10px 40px;
+	padding: 10px 10px 10px 30px;
 }
 
 div#menu ul li a:hover {
-	background-color: #23636D;
+	background-color: #9CCED6;
 	border-radius: 5px;	
 }
 
 div#menu ul li a.active {
-	border-left: 10px solid #23636D;
-	background-color: #23636D;
+	background-color: #9CCED6;
 	border-radius: 5px;
 }
 
 div#main_content {
 	display: block;
-	width: 500px;
+	width: 550px;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	margin-right: 180px;
-	border: 1px solid #F2F0F0;
-	border-radius: 5px;
-	background-color: #F2F0F0;
-	padding: 40px 60px;
+	padding: 0px 60px 40px 60px;
 	font-size: 15px;
 	font-family: Arial;
 	float: right;
+	color: #515657;
 }
 
 div#main_content h3 {
 	font-family: "Verdana";
-	font-size: 20px;
-	font-weight: bold;
+	font-size: 23px;
+	font-weight: normal;
 	line-height: 23px;
 	margin-top: 25px;
 	margin-bottom: 15px;
@@ -222,7 +217,7 @@ div#main_content h3 {
 
 div#main_content p {
 	font-family: Arial;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 23px;
 	margin-bottom: 10px;
 }
@@ -244,8 +239,8 @@ div#main_content ul li {
 }
 
 div#main_content a {
-	color: #389DAD;
-	border-bottom: 1px dotted #245C81;
+	color: #515657;
+	border-bottom: 1px dotted #515657;
 	text-decoration: none;
 }
 
@@ -288,33 +283,35 @@ strong {
 }
 
 div#footer {
-	height: 100px;
-	background-color: #000;
+	height: 150px;
+	border-top: dashed 1px #B8B8B8;
 	font-family: "Helvetica Neue", "Arial";
 	font-size: 14px;
-	color: #E4E2E2;
+	color: #515657;
 }
 
 div#footer a {
-	border-bottom: 1px dotted #E4E2E2;
-	color: #E4E2E2;
+	border-bottom: 1px dotted #515657;
+	color: #515657;
 	text-decoration: none;
 	padding-bottom: 2px;
-	line-height: 23px;
+	line-height: 15px;
 }
 
 div#about a {
 	float: left;
-	margin-left: 180px;
-	margin-top: 15px;
 	text-decoration: none;
+	margin-top: 30px;
 }
 
 div#copyright p {
 	float: right;
-	margin-right: 180px;
-	margin-top: 15px;
 	text-align: right;
+	margin-top: 30px;
+}
+
+div#copyright p img{
+	margin-bottom: 10px;
 }
 
 div#footer a#ccommons {
